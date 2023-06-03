@@ -1,16 +1,3 @@
-(function($) {
-
-  "use strict";
-
-       // init Chocolat light box
-       var initChocolat = function() {
-        Chocolat(document.querySelectorAll('.image-link'), {
-          imageSize: 'contain',
-          loop: true,
-        })
-      }
-  
-
   $(document).ready(function() {
 
 
@@ -61,14 +48,8 @@
         clickable: true,
       },
     });
-
-
-  
-
-    initChocolat();
     
-        
-     
+             
 
   }); // End of a document
 
